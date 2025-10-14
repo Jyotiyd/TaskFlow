@@ -48,7 +48,7 @@ function TodoList() {
     return (
         <div className="min-h-screen bg-gradient-to-r from-purple-500 via-pink-400 to-yellow-400 flex items-center justify-center p-5">
             <div className="max-w-lg w-full bg-white shadow-2xl rounded-2xl p-6">
-                <h1 className="text-3xl font-extrabold text-center text-purple-700 mb-6">✅ My Todo App</h1>
+                <h1 className="text-3xl font-extrabold text-center text-purple-700 mb-6"> My Todo App</h1>
                 
                 {/* Input Section */}
                 <div className="flex gap-3 mb-4">
@@ -92,7 +92,7 @@ function TodoList() {
 
                 {/* Task Counts */}
                 <p className="text-center text-gray-600 font-semibold mb-4">
-                    ✅ Completed: {completedCount} | ⏳ Pending: {pendingCount}
+                    Completed: {completedCount} |  Pending: {pendingCount}
                 </p>
 
                 {/* Todo List */}
